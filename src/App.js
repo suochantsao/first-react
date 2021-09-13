@@ -3,6 +3,7 @@ import "./App.css";
 
 // components
 import PersonOne from "./components/PersonOne";
+import Test from "./components/Test";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <p>This is my first React App!</p>
       <p className="test">HELLO WORLD</p>
       <PersonOne />
-      <p>its a test message</p>
+      <Test />
     </div>
   );
 }
