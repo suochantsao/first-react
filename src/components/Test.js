@@ -8,3 +8,13 @@ function Test() {
 }
 
 export default Test;
+
+// class test extends React.Component {
+//   render() {
+//     return {
+
+//     }
+//   }
+// }
+
+// export default test;
