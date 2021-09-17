@@ -1,13 +1,15 @@
-function Test() {
-  return (
-    <div className="test">
-      <h1>TEST Component</h1>
-      <p>this is my first function component.</p>
-    </div>
-  );
-}
+// function Test() {
+//   return (
+//     <div className="test">
+//       <h1>TEST Component</h1>
+//       <p>this is my first function component.</p>
+//     </div>
+//   );
+// }
 
-export default Test;
+// export default Test;
+
+const Functional = ({ props }) => <button>props</button>;
 
 // class test extends React.Component {
 //   render() {
@@ -17,4 +19,4 @@ export default Test;
 //   }
 // }
 
-// export default test;
+export default Functional;
