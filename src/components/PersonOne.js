@@ -1,9 +1,11 @@
+import { Fragment } from "react";
+
 function PersonOne() {
   return (
-    <div className="person">
+    <Fragment>
       <h1>Bill</h1>
       <p>Your Age: 26</p>
-    </div>
+    </Fragment>
   );
 }
 
