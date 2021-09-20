@@ -9,14 +9,15 @@
 
 // export default Test;
 
-const Functional = ({ props }) => <button>props</button>;
+// const Functional = ({ props }) => <button>props</button>;
+// export default Functional;
 
-// class test extends React.Component {
-//   render() {
-//     return {
+import { Component } from "react";
 
-//     }
-//   }
-// }
+class Test extends Component {
+  render() {
+    return <h1>Class Component</h1>;
+  }
+}
 
-export default Functional;
+export default Test;
