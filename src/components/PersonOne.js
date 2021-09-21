@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 
-function PersonOne() {
+function PersonOne(props) {
   return (
     <Fragment>
       <h1>Bill</h1>
-      <p>Your Age: 26</p>
+      <p>Your Age: {props.age}</p>
     </Fragment>
   );
 }
