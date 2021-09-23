@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
       <p>This is my first React App!</p>
-      <PersonOne age="28"></PersonOne>
+      <PersonOne>28</PersonOne>
     </div>
   );
 }

@@ -4,7 +4,7 @@ function PersonOne(props) {
   return (
     <Fragment>
       <h1>Bill</h1>
-      <p>Your Age: {props.age}</p>
+      <p>Your Age: {props.children}</p>
       <p>Hello, Bill!</p>
     </Fragment>
   );
