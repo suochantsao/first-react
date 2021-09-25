@@ -15,8 +15,15 @@
 import { Component } from "react";
 
 class Test extends Component {
+  constructor(props) {
+    super(props);
+    console.log(this.props);
+
+    this.state = { name: "Angela" };
+  }
+
   render() {
-    return <h1>Class Component</h1>;
+    return <h1>{this.state.name}</h1>;
   }
 }
 

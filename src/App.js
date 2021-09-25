@@ -3,6 +3,7 @@ import "./App.css";
 
 // components
 import PersonOne from "./components/PersonOne";
+import Test from "./components/Test";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" />
       <p>This is my first React App!</p>
       <PersonOne>28</PersonOne>
+      <Test></Test>
     </div>
   );
 }

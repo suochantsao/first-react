@@ -5,7 +5,6 @@ function PersonOne(props) {
     <Fragment>
       <h1>Bill</h1>
       <p>Your Age: {props.children}</p>
-      <p>Hello, Bill!</p>
     </Fragment>
   );
 }
