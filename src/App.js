@@ -3,7 +3,7 @@ import "./style/css/App.css";
 // import logo from "./logo.svg";
 
 // components
-// import PersonOne from "./components/PersonOne";
+import PersonOne from "./components/PersonOne";
 import Timer from "./components/Timer";
 
 // function App() {
@@ -38,6 +38,7 @@ class App extends Component {
       <div>
         <button onClick={this.toggleTimer}>{buttonText}</button>
         {this.state.timerOn && <Timer />}
+        <PersonOne />
       </div>
     );
   }
