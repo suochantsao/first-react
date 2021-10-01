@@ -1,16 +1,15 @@
 import { Fragment, useState, useEffect } from "react";
 
 function PersonOne() {
-  const [test] = useState(100);
-  const [test2] = useEffect();
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
 
   return (
     <Fragment>
-      <h1>Bill</h1>
-      <p>
-        Your Age: {test}
-        {test2}
-      </p>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </Fragment>
   );
 }
