@@ -14,6 +14,9 @@
 import { Component } from "react";
 
 class Timer extends Component {
+  constructor(e) {
+    e.preventDefault();
+  }
   // Mounting 生命週期的方法
   componentDidMount() {
     console.log("componentDidMount");
