@@ -1,5 +1,7 @@
 import { Component } from "react";
 import "./style/css/App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+
 // import logo from "./logo.svg";
 
 // components
@@ -35,11 +37,13 @@ class App extends Component {
   render() {
     const buttonText = this.state.timerOn ? "停止timer" : "開啟timer";
     return (
-      <div>
-        <button onClick={this.toggleTimer}>{buttonText}</button>
-        {this.state.timerOn && <Timer />}
-        <PersonOne />
-      </div>
+      <Router>
+        <div>
+          <button onClick={this.toggleTimer}>{buttonText}</button>
+          {this.state.timerOn && <Timer />}
+          <PersonOne />
+        </div>
+      </Router>
     );
   }
 }
