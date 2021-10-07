@@ -1,8 +1,14 @@
 import { Component } from "react";
 import "./style/css/App.css";
+
+// React Router
 import { BrowserRouter as Router } from "react-router-dom";
 
-// import logo from "./logo.svg";
+// React Redux
+// import { Provider } from "react-redux";
+// import { createStore } from "redux";
+
+// const store = createStore();
 
 // components
 import PersonOne from "./components/PersonOne";
