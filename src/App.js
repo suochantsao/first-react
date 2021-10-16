@@ -11,7 +11,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 // const store = createStore();
 
 // components
-import PersonOne from "./components/PersonOne";
+import Test from "./components/Test";
 import Timer from "./components/Timer";
 
 // function App() {
@@ -47,7 +47,7 @@ class App extends Component {
         <div>
           <button onClick={this.toggleTimer}>{buttonText}</button>
           {this.state.timerOn && <Timer />}
-          <PersonOne />
+          <Test />
         </div>
       </Router>
     );
