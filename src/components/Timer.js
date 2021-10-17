@@ -12,6 +12,7 @@
 // }
 
 import { Component } from "react";
+import { useEffect, useState } from "react";
 
 class Timer extends Component {
   constructor(e) {
