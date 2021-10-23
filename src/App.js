@@ -3,6 +3,7 @@ import "./style/css/App.css";
 
 // React Router
 import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 // React Redux
 // import { Provider } from "react-redux";
